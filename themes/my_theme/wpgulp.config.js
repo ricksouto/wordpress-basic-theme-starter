@@ -12,7 +12,7 @@
 // Local project URL of your already running WordPress site.
 // > Could be something like "wpgulp.local" or "localhost"
 // > depending upon your local WordPress setup.
-const projectURL = 'proxy:localhost:8000';
+const projectURL = 'localhost:8000';
 
 // Theme/Plugin URL. Leave it like it is; since our gulpfile.js lives in the root folder.
 const productURL = './';
@@ -37,7 +37,7 @@ const precision = 10;
 const jsVendorSRC = './assets/js/vendor/*.js';
 
 // Path to place the compiled JS vendors file.
-const jsVendorDestination = './assets/js/';
+const jsVendorDestination = './js/';
 
 // Compiled JS vendors file name. Default set to vendors i.e. vendors.js.
 const jsVendorFile = 'vendor';
@@ -48,10 +48,10 @@ const jsVendorFile = 'vendor';
 const jsCustomSRC = './assets/js/custom/*.js';
 
 // Path to place the compiled JS custom scripts file.
-const jsCustomDestination = './assets/js/';
+const jsCustomDestination = './js/';
 
 // Compiled JS custom file name. Default set to custom i.e. custom.js.
-const jsCustomFile = 'custom';
+const jsCustomFile = 'theme';
 
 // Images options.
 
