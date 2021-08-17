@@ -11,6 +11,9 @@ So if you need to upgrade it just run the command above inside your theme's fold
 `npx install-wpgulp``
 
 ## Docker Compose
+For quick environment setup we are using Docker and Docker Compose.
+[Install Docker](https://www.docker.com/get-started)
+[Install Docker Compose](https://docs.docker.com/compose/install/)
 
 ### How to access your docker application terminal
 Use this command to access the terminal of your docker application, it will be usefull if you need to add some permissions or run any other terminal command.
